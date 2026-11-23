@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "chosen_run": "wide_network",
+  "best_epoch": 29,
+  "mean_baseline": {
+    "val_mae": 9.951945304870605,
+    "test_mae": 9.848395347595215
+  },
+  "linear_baseline": {
+    "val_mae": 9.032176971435547,
+    "test_mae": 8.762954711914062
+  },
+  "network": {
+    "val_mae": 2.4988534450531006,
+    "test_mae": 2.3891098499298096,
+    "best_epoch": 29,
+    "best_val_loss": 13.636816418965658,
+    "hidden": 256,
+    "n_layers": 4,
+    "learning_rate": 0.001
+  }
+}
